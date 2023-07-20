@@ -42,14 +42,32 @@
     width: 100%;
   }
 
+
   .slogan,
   .gamer-description,
   .gamer-content h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   .gamer-btn{
     margin: 0 30%;
+  }
+
+  /* funny-video-section */
+  .funny-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2rem;
+  }
+
+
+  .funny-card{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin: 0 15px;
   }
 
 }
