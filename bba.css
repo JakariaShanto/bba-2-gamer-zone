@@ -237,22 +237,62 @@ p {
   font-weight: 700;
   margin-top: 100px;
 }
-.fun{
-  color: var(--primary-color); 
+
+.fun {
+  color: var(--primary-color);
 }
-.funny-description{
+
+.funny-description {
   text-align: center;
 }
 
-.funny-video{
+.funny-video {
   max-width: 1540px;
   margin: 0 auto;
   height: 400px;
 }
 
-.funny-card{
+.funny-card {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 50px;
+}
+
+/* 4section anim-slogan */
+
+.anim-section {
+  max-width: 1900px;
+  margin: 200px auto;
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fun2 {
+  text-align: right;
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.anim-descriptin{
+  margin-top: 40px;
+  color: #a6a3ad;
+
+}
+.anim-title{
+  font-size: 3rem;
+  text-align: left;
+}
+
+.img2{
+  position: relative;
+  margin-top: 200px;
+
+
 }
