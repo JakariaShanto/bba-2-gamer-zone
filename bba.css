@@ -266,9 +266,12 @@ p {
   margin: 200px auto;
   border: 3px solid red;
   display: flex;
-  justify-content: center;
   align-items: center;
-
+  justify-content: space-between;
+  gap: 400px;
+}
+.anim-slogan{
+  padding-right: 200px;
 }
 
 .fun2 {
@@ -289,10 +292,14 @@ p {
   font-size: 3rem;
   text-align: left;
 }
+.anim-img{
+  position: absolute;
+  padding-left: 230px;
+}
 
-.img2{
+.anim-img2 img{
+  
   position: relative;
-  margin-top: 200px;
-
-
+  margin-top: 500px;
+  padding-left: 250%;
 }

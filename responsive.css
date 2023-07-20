@@ -70,4 +70,14 @@
     margin: 0 15px;
   }
 
+
+  /* 4section-What */
+
+  .anim-sectin{
+    flex-direction: column;
+  }
+  .anim-img{
+    width: 100%;
+  }
+
 }
