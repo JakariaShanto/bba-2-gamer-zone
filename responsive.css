@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) and (min-width:310px) {
   .first-container {
 
     flex-direction: column;
@@ -11,19 +11,19 @@
     margin: 25px 0 30px 0;
     align-items: center;
   }
-
+/* 2ns section, goat section */
 
   .goat-section{
     flex-direction: column-reverse;
-    max-width: 700px;
     
   }
   .goat-content {
     width: 100%;
+    border: 2px solid black;
   }
-  .goat-img-content{
+  .goat-img-content img{
     width: 100%;
-    
+    border: 2px solid black;
   }
 
 }
