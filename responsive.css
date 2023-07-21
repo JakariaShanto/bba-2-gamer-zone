@@ -82,19 +82,85 @@
 
   .anim-section {
     flex-direction: column;
-    max-width: 300px;
-    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px 0;
   }
 
-  .anim-img  {
+  .anim-img {
     width: 100%;
   }
+
   .anim-img > img {
     width: 100%;
+    padding: 20px;
+  }
+  .anim-img2 {
+    width: 50%;
+    padding: 20px;
+  }
+  .anim-img2 > img{
+    width: 120%;
+    margin-top: 180px;
   }
 
+  .anim-slogan {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .anim-title, .fun2{
+    font-size: 2rem;
+    width: 100px;
+  }
+  .anim-description{
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+  }
+/* section 4 ses */
+}
 
-
+@media screen and (max-width: 768px) {
  
+  
+  .anim-section {
+    flex-direction: column;
+    max-width: 750px;
+    margin: 20px 0;
+  }
+
+  .anim-img {
+    width: 100%;
+  }
+
+  .anim-img > img {
+    width: 100%;
+    padding: 20px;
+  }
+  .anim-img2 {
+    width: 50%;
+    padding: 20px;
+  }
+  .anim-img2 > img{
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .anim-slogan {
+    width: 40%;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .anim-title, .fun2{
+    font-size: 2rem;
+    width: 100px;
+  }
+  .anim-slogan > p {
+    max-width: 200px;
+    font-size: 1rem;
+    text-align: center;
+  }
 
 }

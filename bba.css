@@ -273,7 +273,10 @@ p {
 
 .anim-slogan {
   padding-right: 200px;
+  border: 3px solid seagreen;
+
 }
+
 
 .fun2 {
   text-align: right;
@@ -286,14 +289,17 @@ p {
 }
 
 .anim-descriptin {
-  margin-top: 40px;
+  margin: 40px;
   color: #a6a3ad;
+  border: 2px solid slateblue;
+
+  text-align: center;
 
 }
 
-.anim-title {
+.anim-title, .fun2{
   font-size: 3rem;
-  text-align: left;
+  text-align: center;
 }
 
 .anim-img {
