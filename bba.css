@@ -249,7 +249,6 @@ p {
 .funny-video {
   max-width: 1540px;
   margin: 0 auto;
-  height: 400px;
 }
 
 .funny-card {
@@ -257,6 +256,7 @@ p {
   justify-content: space-around;
   align-items: center;
   gap: 50px;
+
 }
 
 /* 4section anim-slogan */
@@ -270,7 +270,8 @@ p {
   justify-content: space-between;
   gap: 400px;
 }
-.anim-slogan{
+
+.anim-slogan {
   padding-right: 200px;
 }
 
@@ -283,23 +284,35 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.anim-descriptin{
+
+.anim-descriptin {
   margin-top: 40px;
   color: #a6a3ad;
 
 }
-.anim-title{
+
+.anim-title {
   font-size: 3rem;
   text-align: left;
 }
-.anim-img{
-  position: absolute;
-  padding-left: 230px;
+
+.anim-img {
+  width: 50%;
+  border: 5px solid skyblue;
+  position: relative;
 }
 
-.anim-img2 img{
-  
+.anim-img > img {
+  width: 710px;
+  height: 650px;
   position: relative;
-  margin-top: 500px;
-  padding-left: 250%;
+}
+
+.anim-img2 {
+  width: 40%;
+  height: 355px;
+  position: absolute;
+  right: 1%;
+  bottom: -10%;
+  border: 2px solid magenta;
 }
