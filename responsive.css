@@ -90,15 +90,17 @@
     width: 100%;
   }
 
-  .anim-img > img {
+  .anim-img>img {
     width: 100%;
     padding: 20px;
   }
+
   .anim-img2 {
     width: 50%;
     padding: 20px;
   }
-  .anim-img2 > img{
+
+  .anim-img2>img {
     width: 120%;
     margin-top: 180px;
   }
@@ -109,21 +111,39 @@
     text-align: center;
     margin: 0 auto;
   }
-  .anim-title, .fun2{
+
+  .anim-title,
+  .fun2 {
     font-size: 2rem;
     width: 100px;
   }
-  .anim-description{
+
+  .anim-description {
     width: 80%;
     font-size: 1rem;
     text-align: center;
   }
-/* section 4 ses */
+
+  /* section 4 ses */
+
+  /* 5section suru */
+
+  .peracon-section{
+    width: 90%;
+
+  }
+  .pera-icon {
+    display: grid;
+    grid-template-rows: repeat(5, 2px);
+
+    
+  }
 }
+
 /* responsive for tab */
 @media screen and (max-width: 768px) {
- 
-  
+
+
   .anim-section {
     flex-direction: column;
     max-width: 750px;
@@ -134,15 +154,17 @@
     width: 100%;
   }
 
-  .anim-img > img {
+  .anim-img>img {
     width: 100%;
     padding: 20px;
   }
+
   .anim-img2 {
     width: 50%;
     padding: 20px;
   }
-  .anim-img2 > img{
+
+  .anim-img2>img {
     width: 100%;
     margin-top: 10px;
   }
@@ -153,11 +175,14 @@
     text-align: center;
     margin: 0 auto;
   }
-  .anim-title, .fun2{
+
+  .anim-title,
+  .fun2 {
     font-size: 2rem;
     width: 100px;
   }
-  .anim-slogan > p {
+
+  .anim-slogan>p {
     max-width: 200px;
     font-size: 1rem;
     text-align: center;
