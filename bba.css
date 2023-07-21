@@ -297,7 +297,8 @@ p {
 
 }
 
-.anim-title, .fun2{
+.anim-title,
+.fun2 {
   font-size: 3rem;
   text-align: center;
 }
@@ -308,7 +309,7 @@ p {
   position: relative;
 }
 
-.anim-img > img {
+.anim-img>img {
   width: 710px;
   height: 650px;
   position: relative;
@@ -322,3 +323,71 @@ p {
   bottom: -10%;
   border: 2px solid magenta;
 }
+
+/* 5section pera-icon */
+.peracon-section {
+  max-width: 1900px;
+  margin: 0 auto;
+  border: 2px solid palevioletred;
+  height: 420px;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+}
+
+
+.pera-icon {
+  width: 340px;
+  height: 80px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pera-icon > p {
+  color: #0B0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pera-icon :hover {
+  border-radius: 20px;
+  background: #FFF;
+  border: 1px solid var(--primary-color);
+  transition-delay: 1s;
+}
+/* 5 section ses  */
+/* 6section footer */
+.footer-container2{
+  max-width: 1990px;
+  height: 400px;
+  margin: 0 auto;
+  border: 5px solid salmon;
+  background: #0B0223;
+}
+.container-flex2{
+  display: flex;
+  justify-content: center;
+  color: #cee0e6;
+  padding-top: 50px;
+}
+.footer-story{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 85px;
+}
+.footer-story, ul{
+  width: 80%;
+  color: #cee0e6;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  margin-top: 50px;
+}
+
